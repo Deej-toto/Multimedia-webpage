@@ -1,0 +1,90 @@
+<!-- Creating a multimedia-rich webpage with audio and video elements
+Designing a registration form with validation attributes 
+Embed an image
+Embed a table
+Create a list -->
+<!DOCTYPE html>
+<head>
+    <title>Multimedia page</title>
+</head>
+<body>
+    <h2>
+    <audio controls>
+        <source src="https://music.youtube.com/watch?v=P2L20eM7W2o&si=UBANvD3gjlM8z02R">
+        Your browser does not support the audio tag. Kirathimo song.
+    </audio>
+</h2>
+<h2>
+    <video controls>
+        <source src="https://youtu.be/tRZGeaHPoaw?si=6bNXel6hYYv1xF7F">
+        Your browser does not support the video tag. Git tutorial video.
+    </video>
+</h2>
+
+ <form action="submit.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="6" required>
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+<img src="https://tse2.mm.bing.net/th?id=OIP.KyxsqHbhtJXJD5hgs7lnKwHaEK&pid=Api&P=0&h=220"
+ alt="Plp Academy Logo" width="300">
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>Akwan</td>
+        <td>24</td>
+        <td>Kenya</td>
+    </tr>
+    <tr>
+        <td>Jackma</td>
+        <td>34</td>
+        <td>China</td>
+    </tr>
+    <tr>
+        <td>Linda</td>
+        <td>20</td>
+        <td>Austria</td>
+    </tr>
+</table>
+
+<ol>
+    <li>Fruits</li>
+    <li>Vegetables</li>
+    <li>Tools</li>
+</ol>
+
+<ul>
+    <li>Apple</li>
+    <li>Asparagus</li>
+    <li>Saw</li>
+</ul>
+
+
+</body>
